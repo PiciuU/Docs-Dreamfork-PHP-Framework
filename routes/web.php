@@ -97,6 +97,14 @@ Route::group('/docs/1.x', function() {
         return view('v1/the-basics/responses');
     });
 
+    Route::get('/caching', function() {
+        return view('v1/the-basics/caching');
+    });
+
+    Route::get('/mail', function() {
+        return view('v1/the-basics/mail');
+    });
+
     Route::get('/collections', function() {
         return view('v1/the-basics/collections');
     });

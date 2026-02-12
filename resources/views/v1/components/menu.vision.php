@@ -87,6 +87,12 @@
                         <li data-subpage-name="responses">
                             <a href="/docs/1.x/responses">Responses</a>
                         </li>
+                        <li data-subpage-name="caching">
+                            <a href="/docs/1.x/caching">Caching</a>
+                        </li>
+                        <li data-subpage-name="mail">
+                            <a href="/docs/1.x/mail">Mail</a>
+                        </li>
                         <li data-subpage-name="collections">
                             <a href="/docs/1.x/collections">Collections</a>
                         </li>
