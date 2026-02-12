@@ -36,16 +36,19 @@
                         <div class="content-list">
                             <ul>
                                 <li>
-                                    <code>MAJOR</code>: Major version, incremented for incompatible API changes.
+                                    <code>MAJOR:</code> Incremented when making incompatible API changes or significant architectural shifts that require manual migration.
                                 </li>
                                 <li>
-                                    <code>MINOR</code>: Minor version, introduces new features in a backward-compatible manner.
+                                    <code>MINOR:</code> Introduces substantial new features or large functional updates in a backward-compatible manner.
                                 </li>
                                 <li>
-                                    <code>PATCH</code>: Patch version, includes bug fixes without introducing new features.
+                                    <code>PATCH:</code> Focuses on bug fixes, security updates, and minor backward-compatible enhancements or small feature additions (such as new helper methods or driver improvements).
                                 </li>
                             </ul>
                         </div>
+                        <p>
+                            This approach allows the framework to evolve quickly and deliver useful features without waiting for larger release cycles, while still guaranteeing that your application will not break during a patch update.
+                        </p>
                         <h2 id="update-process">
                             <a href="#update-process">Update Process</a>
                         </h2>

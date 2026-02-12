@@ -18,6 +18,9 @@
                                 <a href="#version-1.0.x">Version 1.0.x</a>
                                 <ul>
                                     <li>
+                                        <a href="#patch-1.0.5">Patch 1.0.5</a>
+                                    </li>
+                                    <li>
                                         <a href="#patch-1.0.4">Patch 1.0.4</a>
                                     </li>
                                     <li>
@@ -48,13 +51,26 @@
                         <blockquote>
                             <div class="icon"></div>
                             <p>
-                                The current version of Dreamfork framework is <code>1.0.4</code>, and it was officially released on <code>February 12, 2026</code>.
+                                The current version of Dreamfork framework is <code>1.0.5</code>, and it was officially released on <code>February 13, 2026</code>.
                             </p>
                         </blockquote>
 
                         <h2 id="version-1.0.x">
                             <a href="#version-1.0.x">Version 1.0.x</a>
                         </h2>
+
+                        <h3 id="patch-1.0.5">
+                            <a href="#patch-1.0.5">Patch 1.0.5</a>
+                        </h3>
+                        <p>
+                            This patch was released on February 13, 2026.
+                        </p>
+                        <p>
+                            In this update, we have added support for the <code>replyTo</code> method within the Mailing system. This enhancement allows developers to specify a reply-to address in mailable classes, ensuring that recipient responses are directed to the appropriate contact email instead of the default sender address.
+                        </p>
+                        <p>
+                            This change affects the core Mail module. You can review the changes in the following <a href="https://github.com/PiciuU/DreamFork-PHP-Framework/commit/b8401c0898a1457c07644d032a5ae98ad9577527">commit</a>.
+                        </p>
 
                         <h3 id="patch-1.0.4">
                             <a href="#patch-1.0.4">Patch 1.0.4</a>
