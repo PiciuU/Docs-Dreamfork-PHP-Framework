@@ -18,6 +18,9 @@
                                 <a href="#version-1.0.x">Version 1.0.x</a>
                                 <ul>
                                     <li>
+                                        <a href="#patch-1.0.6">Patch 1.0.6</a>
+                                    </li>
+                                    <li>
                                         <a href="#patch-1.0.5">Patch 1.0.5</a>
                                     </li>
                                     <li>
@@ -51,13 +54,26 @@
                         <blockquote>
                             <div class="icon"></div>
                             <p>
-                                The current version of Dreamfork framework is <code>1.0.5</code>, and it was officially released on <code>February 13, 2026</code>.
+                                The current version of Dreamfork framework is <code>1.0.6</code>, and it was officially released on <code>February 13, 2026</code>.
                             </p>
                         </blockquote>
 
                         <h2 id="version-1.0.x">
                             <a href="#version-1.0.x">Version 1.0.x</a>
                         </h2>
+
+                        <h3 id="patch-1.0.6">
+                            <a href="#patch-1.0.6">Patch 1.0.6</a>
+                        </h3>
+                        <p>
+                            This patch was released on February 13, 2026.
+                        </p>
+                        <p>
+                            This patch addresses a bug in the <strong>Validator</strong> service. We resolved an issue involving an undefined variable (<code>$hasNumeric</code>) that triggered warnings when validating numeric strings against size-based rules (such as <code>max</code> or <code>min</code>). The logic has been corrected to properly distinguish between numeric values and strings based on the assigned validation rules.
+                        </p>
+                        <p>
+                            These changes affect the core Validator modules. You can review the changes in the following <a href="https://github.com/PiciuU/DreamFork-PHP-Framework/commit/45291c1a87fcebcb7beae89927381e7682eb0558">commit</a>.
+                        </p>
 
                         <h3 id="patch-1.0.5">
                             <a href="#patch-1.0.5">Patch 1.0.5</a>
