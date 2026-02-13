@@ -76,6 +76,16 @@ class Request extends SymfonyRequest
     }
 
     /**
+     * Get the URL (no query string) for the request.
+     *
+     * @return string
+     */
+    public function url()
+    {
+        return rtrim(preg_replace('/\?.*/', '', $this->getUri()), '/');
+    }
+
+    /**
      * Magic method to get values from the request data.
      *
      * @param string $key The key to retrieve.
