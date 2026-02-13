@@ -10,6 +10,8 @@
 <meta name="robots" content="index, follow">
 <meta name="language" content="English">
 
+<meta name="google-site-verification" content="A5RzVZDR2TgHACm03gFJ7YBjfTC_lSPrZiYY_2ndviQ" />
+
 <link rel="canonical" href="{{ request()->url() }}">
 
 <meta property="og:type" content="website">
